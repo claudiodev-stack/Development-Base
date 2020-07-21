@@ -6,9 +6,12 @@ div{
     "transition" faz a mudança de estilização de uma forma suave e controlada 
     como mostrado a seguir.
     sem essa propriedade a mudanças acontece de forma instantânea.
+
+    "transform" aplicar transformações em duas dimensões a objetos da página
 */
 .enviar{
     width: 40%;
+    margin: 200px;
     padding: 15px 0;
     background: orange;
     color: white;
@@ -16,8 +19,10 @@ div{
     font-size: 18px;
     border: 5px none;
     border-radius: 5px;
-    transition: 2s background;
+    transition: 2s all;
 }
 .enviar:hover{
     background: red;
+    transform: scale(1.2);
+    transform: rotate(-60deg);
 }
