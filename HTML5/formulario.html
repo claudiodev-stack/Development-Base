@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+    </head>
+    <body>
+        <!-----------------------TAGS------------------------------------->
+        <!-- <form> cria um formulário de preenchimento que depois recebe uma ação de envio através de um método-->
+        <!-- <label> Nomes criados para os labels.-->
+        <!-- <input> caixas para inserção de dados-->
+        <!-- <select> <option> lista suspensa de seleção de dados-->
+        <!-- <textarea> box maior para mais informações de dados-->    
+        <!-- "submit" serve como um "botão" de ação de envio do formulário-->
+        <!-----------------------ATRIBUTOS------------------------------------->
+        <!-- Os atributos "names" com o mesmo nome (grupos) torna as marcações únicas.
+             atributos "required" são formas obrigatórias para campos vazios
+             atributos "placeholder" são textos iniciais para preencher os inputs
+             atributos "cheked" servem para deixar as caixas marcadas
+             atributos "max" "min" obrigatório de valores maiores que e menores que-->   
+        <!-- http://mobileinputtypes.com/ exemplos:inputs mobiles-->
+        <form action="">
+        <h1>Formulário</h1>   
+            <label>Login</label>
+            </br>
+            <input type="text" name="username" required placeholder="Insira o usuário">
+            </br>
+            <label>Password</label> 
+            </br>
+            <input type="password" name="password" required placeholder="Insira o password">  
+            </br>
+            <input type="submit" value="Logar">       
+             </br>
+        </form>
+        <form action="">
+        <h1>Cadastro</h1>   
+            <input type="text" name="login" value="Login">
+            <input type="text" name="password" value="Senha">
+            <br>                 
+        <h1>Sexo</h1>   
+            <input type="radio" name="sexo" value="M" checked>Masculino
+            <input type="radio" name="sexo" value="F">Feminino
+            <br>
+        <h1>Interesse</h1>   
+            <input type="checkbox" name="interesses" checked>Futebol
+            <input type="checkbox" name="interesses">Moda
+            <input type="checkbox" name="interesses">Novela
+            <br>
+        <h1>Pagamentos</h1>   
+            <input type="number" name="valor" min="1" placeholder="Ex:5000.00">Futebol
+            <br>
+        <h1>Estado</h1> 
+            <select name="estado" id="">
+                <option value="rj">RJ</option>
+                <option value="sp">SP</option>
+                <option value="mg">MG</option>
+            </select>
+            <br>
+            <br>
+        <h1>Observações</h1>       
+        <textarea name="" id="" cols="30" rows="10" placeholder="escreva aqui"></textarea></br>   
+        <input type="submit" class="enviar" value="Cadastrar">
+    </form>
+    </body>
+</html>

@@ -1,0 +1,71 @@
+/*
+Hierarquia CSS
+Inline > Id > Class > Tag
+*/
+.classe_hierarquia{
+    color:blue;
+}
+
+p{
+    color:red;
+}
+
+#id_hierarquia{
+    color:black;
+}
+
+/*Seletor Universal - Utiliza o estilo em toda a página web*/
+*{
+    border: 1px solid red;
+}
+
+/*Seletor Texto/Tag*/
+h1{
+    color:green;
+}
+
+/*Seletor Classe - Recebe um atributo classe html e opera no css por "."*/
+.verde{
+    color:green;
+}
+
+/*Seletor Classe - Só vai funcionar dentro de <p> parágrafos acompanhados da classe verde*/
+p.verde{
+    color:green;
+    background: red;
+}
+
+/*Seletor ID - Recebe um atributo id html e opera no css por "#" */
+#cabecalho{
+    border: 1px solid blue;
+}
+
+/*Seletor de Filho - Seleciona um elemento que é filho direto de outro
+Vai selecionar todos os elementos <a> que estão dentro de <li> e não elementos <a> dentro da página
+Como estou apontando para li > a este é o filho direto, se eu tiver 3 tags por exemplo "li" "span" "a" nessa sequência
+"a" agora se torna filho de "span" e não mais de "li". 
+*/
+li > a{
+    color: black;
+    text-decoration: none;
+}
+
+/*Seletor Descendente - Seleciona um elemento que é descendente de outro elemento especificado e não apenas do filho
+Como o próprio exemplo de cima quando temos 3 elementos "li" "span" "a", só que nesse caso se apontarmos li a, mesmo com o span no meio 
+ele vai interpretar corretamente.
+*/
+p a {
+    color:gray;
+}
+
+/*Seletor Adjacentes - Seleciona um elemento que é o irmão próximo do outro
+Somente o elemento abaixo "p" do que está controlando "h1" no exemplo é modificado. Elementos acima do de controle não funcionam*/
+h1+p{
+    color:orange;
+}
+
+/*Seletor de irmão Geral - Seleciona um elemento que é o irmão de outro, embora ele não precise ser o elemento precedente
+Todos os elementos abaixo do elemento que está controlando são modificados. Elementos acima do de controle não funcionam*/
+h1~p{
+    color: peachpuff;
+}

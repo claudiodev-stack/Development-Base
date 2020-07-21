@@ -1,0 +1,24 @@
+/*
+    px -> tamanho fixo
+    % -> tamanho relativo ao padrão do browser
+    em -> tamanho relativo ao container <> pai 
+    Para ver mais unidades de medidas utilizadas.
+    https://www.w3schools.com/css/css_units.asp 
+*/
+/* Div pai definida com tamanho 60px.*/
+div{
+    font-size: 60px;
+}
+/*O tamanho '1em' definido é igual ao tamanho da Div pai ou seja 60px*/
+.texto1{
+    font-size: 1em;
+}
+/*O contrário quando definir px dentro de uma div pai, ela não assume o tamanho da Div pai ela mantem o px */
+.texto2{
+    font-size: 15px;
+}
+
+/*Tamanho relativo ao padrão do browser*/
+.texto3{
+    font-size: 150%;
+}

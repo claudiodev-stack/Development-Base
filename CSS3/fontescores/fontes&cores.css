@@ -1,0 +1,21 @@
+/**
+As cores podem ser definidas como 
+
+Nomes de cor em inglês: red, blue, green, yellow
+
+RGB Min = 0 Max = 255
+RGB....0,1,2,3,4..255
+rgb(10,20,255)
+
+Hexadecimal Min = 0 Max = F
+#FF005C
+
+*/
+
+.formatacao{
+    color:rgb(10,20,255);
+    color:red;
+    color: #0eb426;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}

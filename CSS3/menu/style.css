@@ -1,0 +1,33 @@
+#menu-exemplo{
+    background: skyblue;    
+}
+
+ul{
+    position: absolute;
+    top:100px;
+    right:0;
+
+}
+
+/*
+    list-style-type:none -> é para remover as bolinhas padrões que são criadas em <li>
+    display:inline -> exemplo que serve para deixar os itens do menu dentro de um bloco único.
+    text-transform -> faz modificações dentro do texto
+*/
+li {
+    text-transform: uppercase;
+    list-style-type: none;
+    display: inline;
+    padding: 15px;
+    }
+
+/*
+    text-decotation:none -> serve para remover os links sublinhados de <a> 
+*/
+a:link{
+    text-decoration: none;
+    color: black;
+}
+
+/*______________________________________________________*/
+

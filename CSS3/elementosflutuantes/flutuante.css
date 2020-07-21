@@ -1,0 +1,34 @@
+/*
+ Elementos Flutuantes. A propriedade float é aplicada a tag <div> do HTML. 
+ Dois valores podem ser aplicados: Left e Right. Ela é usada por causa de sua característica singular 
+ de poder colocar o conteúdo ao seu redor,sendo possível adicionar margin e padding.
+
+ Para evitar o elemento flutuante entre ambos é utilizado o clear.
+*/
+.conteudo{
+    border: 1px solid gray;
+    width: 200px;
+    height: 200px;
+    background: blue;
+    float: left;
+    margin: 10px;
+}
+
+.clear{
+    clear: left;
+}
+
+.conteudo-zero{
+    border: 1px solid gray;
+    width: 150px;
+    height: 150px;
+    background: red;
+    padding: 10px;
+}
+
+#principal{
+    background: green;
+    border: 5px solid red;
+}
+}
+

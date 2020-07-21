@@ -1,0 +1,25 @@
+/*
+Margem - Espaçamento fora do conteúdo.
+
+Padding / Preenchimento - Espaçamento dentro dos limites do conteúdo. 
+Tendo em conta que o limite do espaçamento do conteúdo de um elemento é a sua borda (border box).
+*/
+.container{
+    border: 1px solid red;
+    width: 150px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    /* TOP - RIGHT - BOTTOM - LEFT
+    padding: 20px 15px 10px 5px;*/    
+    /* TOP E BOTTOM / RIGHT E LEFT    
+    /*padding: 20px 15px*/
+
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    /*Pode ser da mesma maneira que os 2 exemplos do padding*/
+}
+

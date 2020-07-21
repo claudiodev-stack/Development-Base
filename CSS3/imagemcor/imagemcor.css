@@ -1,0 +1,22 @@
+/*
+Trabalhando com imagens no css. 
+*/
+.fundo{
+    background-color: blue;
+}
+
+body{
+    /* Tanto background como background-image podem anexar imagens pelo CSS */
+   /* background: url('imagem/amazon.jpg'); */
+    background-image: url('imagem/amazon.jpg');
+    /*Exemplo ao colocar a imagem no body ela se repete diversas vezes, portante o no repeat serve para que
+    ela só seja aplicada 1x por exemplo, mas existe com eixo X,Y e repeat */
+    background-repeat: no-repeat;
+    /*A imagem pode ser posta como fixa e mover conforme a barra de scroll ou scroll 
+    e ficar na posição inicial */
+    background-attachment: fixed;
+    /*Definir a posição da imagem no browser*/
+    background-position: left center;
+}
+
+

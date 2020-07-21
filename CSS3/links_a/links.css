@@ -1,0 +1,27 @@
+/*
+    a:link, a:visited, a:hover, a:active
+*/
+a{
+    padding: 5px 10px;
+    text-decoration: none;
+}
+/*Se o link ainda não foi visitado ele assume a cor ou a ação*/
+a:link{
+    color:#b9c941
+}   
+
+/*Se o link foi visitado ele assume a cor ou a ação*/
+a:visited{
+    color:#c0c0c0;
+}
+
+/*Quando passa o cursor em cima ele muda a cor ou faz alguma ação*/
+a:hover{
+    color: #fff;
+    background: #6d790f;
+}
+
+/*Link fica ativo quando é clicado*/
+a:active{
+    color:#e4f391;
+}

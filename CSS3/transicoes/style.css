@@ -1,0 +1,23 @@
+div{
+    margin:10px;
+}
+
+/*
+    "transition" faz a mudança de estilização de uma forma suave e controlada 
+    como mostrado a seguir.
+    sem essa propriedade a mudanças acontece de forma instantânea.
+*/
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    background: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: 5px none;
+    border-radius: 5px;
+    transition: 2s background;
+}
+.enviar:hover{
+    background: red;
+}

@@ -1,0 +1,6 @@
+/*
+   É possível criar um arquivo css único e atráves da tag <link> chamar o arquivo. (Forma prática e correta). 
+*/
+.estilo_externo{
+    background-color: black;
+}

@@ -1,0 +1,20 @@
+/*
+    As bordas são para ajustar os 4 cantos de um elemento de acordo com o que deseja.
+    Verificar em https://www.w3schools.com/css/css_border.asp 
+*/
+/*
+    É possível realizar a edição da borda como no exemplo 1: Type, width e color
+    Border-radius é para arredondar a borda no limite que desejar.
+*/
+#bordas{
+    border: red 3px solid;
+    border-radius: 10px;
+}
+/*
+    É possível também utilizar a edição de bordar separados diferente do primeiro
+*/
+#diversas_bordas{
+    border-color: red green yellow black;
+    border-width: 20px 15px 10px 5px;
+    border-style: solid ridge;
+}

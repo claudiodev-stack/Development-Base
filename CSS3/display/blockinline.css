@@ -1,0 +1,25 @@
+/* CSS ->display: block, inline, inline-block*/
+
+h1{
+    background: red;
+}
+/* Elementos em block compõe todo o bloco da página como o exemplo do <h1>*/
+.block{
+border: 1px solid red;
+background: green;
+display: block;
+}
+/*Elementos inline compõe até o seu tamanho, pode ser uma imagem <img> <span> ou um texto.*/
+.inline{
+border: 1px solid red;
+background: green;
+display: inline;    
+}
+/* Elementos inline-block também compõe até o seu tamanho, porém quando ultrapassa o tamanho do bloco
+ ele pula a linha com o conteúdo, não a mantem na mesma linha.    
+*/
+.inline-block{
+    border: 1px solid red;
+    background: green;
+    display: inline-block;    
+}

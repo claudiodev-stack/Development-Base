@@ -1,0 +1,18 @@
+/*
+    As classes são utilizadas mais de uma vez em diversas tags <>, com elas é possível editar um conjunto de
+    tags. Os id's são únicos e servem para editar único campo como no exemplo exemplo abaixo.
+    Para chamar uma classe no css -> .nomedaclasse{ }
+    Para chamar um id no cass -> #nomedoid{ } 
+*/
+.same{
+    width: 100%;
+    margin: 10px;
+}
+
+#produto{
+    padding: 50px;
+}
+
+#servico{
+    padding: 200px;
+}

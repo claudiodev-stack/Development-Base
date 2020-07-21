@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+    </head>
+    <body>
+        <!-- As tags <table> são utilizadas para criar o formato da tabela 
+            As tags <tr> "table row" são para criar uma célula da tabela 
+            As tags <td> "table data" são para receber os dados dentro da tabela.
+            As tags <th> "table head" são para criar cabeçalhos em negrito
+            Rowspan -> Serve para mesclar as linhas <tr>
+            Colspan -> Serve para mesclar as colunas   
+        -->
+          <table border="2">
+                <tr>
+                    <th>Código</th>
+                    <th>Produto</th>
+                    <th>Preço</th>                    
+                </tr>
+                <tr>
+                    <td>102534</td>
+                    <td>Notebook</td>
+                    <td>2250.05</td>                    
+                </tr>
+                <tr>
+                    <td>102536</td>
+                    <td>Roteador</td>
+                    <td>320.10</td>                    
+                </tr>
+                <tr>
+                    <td rowspan="2">Total</td>
+                    <td colspan="3">Desconto:10</td>
+                </tr>
+                <tr>
+                    <td colspan="3">2570.05</td>
+                </tr>
+          </table>  
+    </body>
+</html>

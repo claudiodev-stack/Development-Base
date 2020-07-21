@@ -1,0 +1,22 @@
+/*
+*/
+
+.menu{
+    background-color:red;
+}
+
+.artigo{
+    background-color: steelblue;
+}
+
+#rodape{
+    background-color:green;
+}
+
+.produto{
+    border: black 10px solid;
+}
+
+#assinatura{
+    background-color: coral;
+}

@@ -1,0 +1,93 @@
+body{
+    background: #007fc7;
+}
+
+#container{
+    background: #fff;
+    width: 800px;
+    margin: 10px auto;
+    padding:10px;
+    position: relative;
+}
+
+p{
+    width: 300px;;
+}
+/* position static -> É a posição padrão do documento. Não se move mesmo com propriedade de deslocamento.*/
+.static{
+    position: static;
+    top:100px;
+    right: 300px
+}
+
+/* position relative -> Essa posição é baseada na posição padrão, porém ao utilizar as propriedades
+ de  deslocamento (top, right, bottom, left) ela se move a partir dessa posição padrão do seu elemento.
+*/
+.relative{
+    border: 1px solid red;
+    position: relative;
+    top:15px;
+    left:80px;
+}
+
+/* position absolute -> Quando definida como posição absoluta ela perde a posição padrão e o elemento debaixo
+ assume a posição do elemento absoluto, essa posição também se move utilizando as propriedades de
+ deslocamento, porém ela é baseada dentro do seu conteiner, se o conteiner estiver com a posição estática 
+ definida ele vai se basear pelo body da página podendo sair de seu container, se o conteiner tiver por exemplo
+ com a posição relativa definida ela vai se mover somente dentro do conteiner.   
+*/
+.absolute{
+    border: 1px solid red;
+    position: absolute;
+    top: 80px;
+    right:20px;
+}
+
+/* position fixed -> Quando definida como posição fixa ela também perde a posição padrão e pode utilizar 
+ as propriedades de deslocamento nessa posição, porém ela fica fixa na tela mesmo utilizando barra de rolagem.
+*/
+.fixed{
+    position: fixed;
+    border: 1px solid red;    
+    top: 0px;
+    right:20px;
+
+}
+
+/* z-index (contexto empilhamento) -> Essa funcionalidade no CSS é para sobrepor um elemento que possa 
+ estar abaixo de um outro. Para sobrepor o elemento basta por o valor do z-index maior que o z-index do 
+ outro elemento. 2 exemplos abaixo   
+*/
+.Conteudo1{
+    border: 1px solid red;
+    background: green;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 1;
+}
+
+.Conteudo2{
+    border: 1px solid red;
+    background: yellow;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    z-index: 0;
+}
+
+
+.Conteudo3{
+    border: 1px solid red;
+    background: gray;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    z-index: -1;
+}
