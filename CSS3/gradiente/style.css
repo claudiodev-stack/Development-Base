@@ -1,0 +1,19 @@
+h1{
+    width: 100%;
+    text-align: center;
+}
+
+.mapa{
+    margin: 0 auto;
+    width: 50%;
+}
+
+/*linear-gradiente - Faz uma transição de cores de acordo com o tamanho definido. 
+radial-gradient - Organiza a transição de cores de maneira circular
+É possível, inclusive, ajustar a inclinação das cores, 
+por exemplo 35deg e então ficarão posicionadas em 35º
+*/
+.gradient{
+    background: linear-gradient(35deg, orange, blue, red, black);
+}
+

@@ -69,3 +69,7 @@ Todos os elementos abaixo do elemento que está controlando são modificados. El
 h1~p{
     color: peachpuff;
 }
+/*Seletor de exclusão - Elimina os seletores que contem a classe, id específico.*/
+main > p:not(.seletor-not){
+    color:hotpink;
+}
