@@ -1,0 +1,25 @@
+h1{
+    text-align: center;
+}
+
+.imagem-opacidade{
+    display: block;
+    margin: 0 auto;
+}
+/*
+A opacidade admite decimais de 0 a 1 sendo 0 transparente e 1 opaco. 
+Valores decimais devem ser escritos com uso de ponto,
+sendo o 0(zero) inicial opcional. Exemplo: 0.5 ou .5
+*/
+.imagem-opacidade:hover{
+    opacity: 0.3;
+    transition: 1000ms;
+}
+/*
+    É possível incluir opacidade em textos também utilizando a opção "rgba".
+    A ultima letra a é o valor da opacidade que deve ser incluído dentro do rgb.
+*/
+h1:hover{
+    text-align: center;
+    color: rgba(0, 0, 0,0.3);
+}

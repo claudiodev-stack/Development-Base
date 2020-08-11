@@ -1,0 +1,13 @@
+/*
+    Text-Shadow e Box-Shadow são utlizados para criar sombras nos elementos da página.
+*/
+h1{
+    text-align: center;
+    text-shadow: 10px 10px #FF0000;
+}
+
+.imagem-opacidade{
+    display: block;
+    margin: 0 auto;
+    box-shadow: 40px 40px #000;
+}
