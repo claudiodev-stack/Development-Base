@@ -1,0 +1,15 @@
+h1{
+    text-align: center;
+}
+
+@media screen and (max-width:600px) {
+.mediaquery{
+    display: none;
+    }
+}
+
+@media screen and (min-width:800px){
+.mediaquery{
+    background: yellow;
+}
+}
