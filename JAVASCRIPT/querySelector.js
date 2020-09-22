@@ -1,6 +1,6 @@
 
-/*Chamada ao DOM querySelector vai pegar o elemento de <h1>, a primeira opção funciona, mas não é uma boa prática pegar direto pelo elemento HTML,
-pois outro dev pode mudar a tag <h1> por <h2> com isso o javascript retornará null, o ideal é sempre direcionar pela classe, id ou seletor definido para o elemento.
+/*Chamada ao DOM querySelector vai pegar o elemento da página ex:<h1>, a primeira opção funciona, mas não é uma BOA PRÁTICA pegar direto pelo elemento HTML,
+pois outro desenvolvedor pode mudar a tag <h1> por <h2> com isso o javascript retornará null, o ideal é sempre direcionar pela classe, id ou seletor definido para o elemento.
 */
 //const titulo =  document.querySelector("h1"); X
 const titulo =  document.querySelector(".titulo");
