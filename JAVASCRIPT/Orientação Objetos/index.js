@@ -1,7 +1,7 @@
 //OBS:orientacao_objetos.js está atrelado a Classe.js
 
-import {Cliente} from "./Classes.js" //Importar a classe do módulo que ela está 
-import {ContaCorrente} from "./Classes.js"
+import {Cliente} from "./Cliente.js" //Importar a classe do módulo que ela está 
+import {ContaCorrente} from "./ContaCorrente.js"
 
 const cliente1 = new Cliente("João", 12056292735); //Criando uma instancia da classe cliente ou conta corrente utilizando o construtor
 const cliente2 = new Cliente("Sergio", 320948234224);
