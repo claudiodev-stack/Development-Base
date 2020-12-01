@@ -1,4 +1,6 @@
 /*
+    Podem ser declaradas por const, var, let. (Ler mais a respeito da funcionalidade de cada uma)
+    
     Regras de declarações de variáveis 
     Não podem ser iniciadas com números, apenas com letras ou "_"
     Não podem ser utilizadas caracteres especiais como "ç", "^","~"
@@ -21,7 +23,3 @@ let nome = "Claudio";
 const sobrenome = "Henrique";
 console.log(nome + " " + sobrenome); //Concatenando o espaço pelo operador 
 console.log(nome, sobrenome); //Atribuindo o espaço utilizando a vírgula 
-console.log(`${nome} ${sobrenome}`);//Interpolação de variáveis utilizando aspas `` e chamando a variável dentro de ${}
-
-nome = nome + sobrenome; // Reescrevendo a variável reservada por let
-console.log(nome);

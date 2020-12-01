@@ -14,6 +14,8 @@ const podeComprar = idadeComprador >= 18 || estaAcompanhada == true;
 
 let contador = 0;
 let destinoExiste = false;  
+/*LOOP While - Enquanto o contador for menor que 3 faça a operação dentro do escopo e 
+por fim se não atingir o contador, esse contador vai receber um valor a mais até atingir o contador*/
 while (contador < 3) {
     if (listaDestinos[contador] == destino) {
         console.log("Destino existe usando loop WHILE.");
@@ -23,6 +25,9 @@ while (contador < 3) {
     contador++;
 }
 
+/*LOOP FOR - Contador se inicia em 0 ou n valor, recebe recebe primeiro valor de verificação 
+e enquanto esse valor for menor que o contador ele vai fazer novamente a operação recebendo um valor a mais
+até atingir a operação*/
 for(let cont = 0; cont < 3; cont++){
     if (listaDestinos[contador] == destino) {
         console.log("Destino existe usando loop FOR.");
