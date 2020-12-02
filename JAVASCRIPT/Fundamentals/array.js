@@ -1,4 +1,4 @@
-console.log("Trabalhando com listas");
+console.log("Trabalhando com arrays");
 
 //Array é um conjunto ou um globo que recebe diversos elementos e cada elemento vai tendo sua posição ou índice.
 // Pode ser utilizado chamando a função Array
