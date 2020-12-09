@@ -29,3 +29,26 @@ var numero = 30
     console.log('Dentro =', numero);
 }
 console.log('Fora =', numero);
+
+//CONST funciona quase da mesma forma que o LET porem não pode ser reasignada ou modificada e o LET pode.
+//É obrigatório inicializar o const com algum valor, diferente do let que retornia undefined.
+const valor = 15;
+//valor = 25 ERROR
+console.log(valor)
+
+
+//HOISTING - Importante
+
+/* Em JavaScript diferente de outras linguagens, toda variável é “elevada/içada” (hoisting) até o topo do seu contexto de execução. 
+Esse mecanismo move as variáveis para o topo do seu escopo antes da execução do código.*/
+
+void function(){ 
+    console.log(mensagem); 
+}();
+var mensagem;
+
+let b;
+console.log(b);
+b = 20;
+console.log(b);
+

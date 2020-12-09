@@ -40,3 +40,4 @@ console.log(subtrair(105,10))
 //Função utilizando Arrow Function ainda mais reduzida 
 const dividr = (a, b) => a/ b ; //Somente os parametros e depois o critério
 console.log(dividr(100,10));
+
