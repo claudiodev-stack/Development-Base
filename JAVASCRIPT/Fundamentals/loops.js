@@ -42,3 +42,9 @@ if(podeComprar &&  destinoExiste){
 } else {
     console.log("Desculpe tivemos um erro.");
 }
+
+/*LOOP FOR IN  */
+
+for(let destinos in listaDestinos){
+    console.log(destinos, listaDestinos[destinos]);
+}

@@ -29,13 +29,11 @@ const multiplicar =  function imprimirMultiplicacao (a, b) { //declarar a variá
 }
 multiplicar(12,3);
 
-
 //Função utilizando Arrow Function
 const subtrair = (a, b) => {//é removida a palavra "function" e só passado os parametros direto e depois o bloco com o return
     return a - b;
 }
 console.log(subtrair(105,10))
-
 
 //Função utilizando Arrow Function ainda mais reduzida 
 const dividr = (a, b) => a/ b ; //Somente os parametros e depois o critério

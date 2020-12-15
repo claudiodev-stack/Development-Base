@@ -19,3 +19,22 @@ if (idadeComprador >= 18 && estaAcompanhada) {
 }
 
 console.log("Destinos possíveis: ", listaDestinos);
+
+//Swith Case
+/*Vai veririficar se algumas das passagens são de valor 15, caso alguma seja ele vai imprimir o valor dela*/
+
+var passagem = 15
+switch(passagem){
+
+    case 10:
+        console.log("Bahia");
+        break;
+    case 5:
+        console.log("Rio de Janeiro");    
+        break;
+    case 15:    
+        console.log("São Paulo");
+        break;
+    default:
+        console.log("Valor de passagem do destino não localizada.")    
+}
