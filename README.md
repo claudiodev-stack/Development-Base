@@ -1,4 +1,5 @@
 # Development-Base
 
-Repositório de base de desenvolvimento por tópico, não são baseados em projetos, mas sim com o entendimento de cada pequena parte do código.
-Não será aprofundado em tudo, mas nos principais e mais utilizados nas linguagens.
+Development base repository.
+Just to put notes on simple parts of the codes.
+I will not put about everything, but the most useds.
