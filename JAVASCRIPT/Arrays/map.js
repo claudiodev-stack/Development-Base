@@ -10,6 +10,7 @@ const arr = [
         quantidade:2
     }];
 
+//
 const map = arr.map(function(item, indice, array){
     return [item, indice, array];
 })
